@@ -79,6 +79,7 @@ form label {
 }
 
 form input {
+
     border: none;
     border-bottom: 1px solid rgb(100, 22, 22);
     border: 50%;
