@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1272B3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: rgb(100, 22, 22);
+    width: 85%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.flow>* {
+    margin-bottom: 1rem;
+}
+
+.form__body {
+    padding: 10px;
+}
+
+form {
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 0 0 1rem 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: rgb(100, 22, 22);
+    color: aliceblue;
+    outline: none;
+    border: 2px solid brown;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: brown;
+    border: 1px solid aliceblue;
+}
+
+form input,
+form label {
+    font-size: 2rem;
+    color: aliceblue;
+
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid rgb(100, 22, 22);
+    border: 50%;
+    outline: none;
+    background-color: inherit;
+    padding-left: 20px;
+    width: 20%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.output {
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
+
+.output label {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
