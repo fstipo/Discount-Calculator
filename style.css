@@ -10,3 +10,7 @@ body {
 .container {
   background-color: purple;
 }
+
+.discount__container {
+  background-color: greenyellow;
+}

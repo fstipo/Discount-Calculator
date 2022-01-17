@@ -17,37 +17,37 @@
 
   <body>
 
-    <section class="discount-section">
+    <section class="discount__section">
 
-      <header class="header">
-        <h1 class="heading-primary">Calculate Discount</h1>
+      <header class="discount__header">
+        <h1 class="discount__main-title">Calculate Discount</h1>
       </header>
       
-      <div class="main-container">
+      <div class="discount__container">
 
-        <div class="price-original">
-          <h3 class="heading-secondary">Original price</h3>
+        <div class="price__row">
+          <h3 class="price__title">Original price</h3>
           <div class="price">
-          <label for="">Price: </label>
-          <input type="text" />
+          <label for="price" class="price__label">Price: </label>
+          <input type="number" class="price__input" id="price" min="0"/>
           <span>&#8364</span>
         </div>
-        <div class="discount">
-          <label for="">Discount: </label>
-          <input type="text" />
+        <div class="discount__row">
+          <label for="discount" class="discount__label">Discount: </label>
+          <input type="number" class="discount__input" id="discount" autocomplete="off" min="0" max="100" step="1" />
           <span>&#37</span>
           </div>
 
-          <div class="price-discount">
-            <h3 class="heading-secondary">After discount</h3>
-            <div class="discounted-price">
+          <div class="result_row">
+            <h3 class="result__title">After discount</h3>
+            <div class="result__price">
             <label for="">You pay: </label>
-            <input type="text" />
+            <output>
             <span>&#8364</span>
           </div>
-          <div class="">
+          <div class="result__reminder">
             <label for="">You're saving: </label>
-            <input type="text" />
+            <output>
             <span>&#8364</span>
             </div>
 
