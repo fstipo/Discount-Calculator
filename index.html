@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,38 +12,47 @@
       type="image/x-icon"
     />
     <title>Discount Calculator</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
-  <body>
-    <section class="discount-section">
-      <header class="main-header">
-        <h1 class="main-title">Calculate Discount</h1>
-      </header>
-      <div>
-        <div>
-          <h3>Original price</h3>
-          <div>
-            <label for="">Price: </label>
-            <input type="text" />
-            <span>&#8364</span>
-            <label for="">Discount: </label>
-            <input type="text" />
-            <span>&#37</span>
 
-          </div>
+  <body>
+
+    <section class="discount-section">
+
+      <header class="header">
+        <h1 class="heading-primary">Calculate Discount</h1>
+      </header>
+      
+      <div class="main-container">
+
+        <div class="price-original">
+          <h3 class="heading-secondary">Original price</h3>
+          <div class="price">
+          <label for="">Price: </label>
+          <input type="text" />
+          <span>&#8364</span>
         </div>
-        <div>
-          <h3>After discount</h3>
-          <div>
+        <div class="discount">
+          <label for="">Discount: </label>
+          <input type="text" />
+          <span>&#37</span>
+          </div>
+
+          <div class="price-discount">
+            <h3 class="heading-secondary">After discount</h3>
+            <div class="discounted-price">
             <label for="">You pay: </label>
             <input type="text" />
             <span>&#8364</span>
+          </div>
+          <div class="">
             <label for="">You're saving: </label>
             <input type="text" />
             <span>&#8364</span>
-          </div>
-        </div>
+            </div>
+
       </div>
     </section>
-  </body>
+</body>
 </html>
 
