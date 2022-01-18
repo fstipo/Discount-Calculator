@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap');
 
 body {
-  border-bottom: 15px solid green;
-}
-.header {
-  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #9462b7, #413293);
 }
 
 .container {
-  background-color: purple;
+  background: radial-gradient(#ceb1e2, #413293);
+  width: 80vw;
+  height: 60vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px;
 }
 
-.discount__container {
-  background-color: greenyellow;
+.heading {
+  font-size: 35px;
+  align-self: center;
+  background-color: blueviolet;
+  flex-basis: 0%;
+  align-self: center;
+}
+
+.content {
+  background-color: blue;
+  display: flex;
+  font-size: 35px;
+  align-self: center;
+  justify-content: center;
 }

@@ -1,58 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO:  content:rewrite-->
     <meta name="description" content="" />
+    <title>Discount Calculator</title>
     <link
       rel="shortcut icon"
-      href="/img/favicons/64x64.png"
+      href="img/favicons/64x64.png"
       type="image/x-icon"
     />
-    <title>Discount Calculator</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
-    <section class="discount__section">
-
-      <header class="discount__header">
-        <h1 class="discount__main-title">Calculate Discount</h1>
-      </header>
-      
-      <div class="discount__container">
-
-        <div class="price__row">
-          <h3 class="price__title">Original price</h3>
-          <div class="price">
-          <label for="price" class="price__label">Price: </label>
-          <input type="number" class="price__input" id="price" min="0"/>
-          <span>&#8364</span>
-        </div>
-        <div class="discount__row">
-          <label for="discount" class="discount__label">Discount: </label>
-          <input type="number" class="discount__input" id="discount" autocomplete="off" min="0" max="100" step="1" />
-          <span>&#37</span>
-          </div>
-
-          <div class="result_row">
-            <h3 class="result__title">After discount</h3>
-            <div class="result__price">
-            <label for="">You pay: </label>
-            <output>
-            <span>&#8364</span>
-          </div>
-          <div class="result__reminder">
-            <label for="">You're saving: </label>
-            <output>
-            <span>&#8364</span>
-            </div>
-
-      </div>
-    </section>
-</body>
+         <div class="container">
+                 <div class="heading">
+                         <h1 class="heading_title">Discount Calculator</h1>
+                         <p class="heading_text">This discount calculator allows you to find the reduced price of a product and the amount of money you save.</p>
+                 </div>
+                 <div class="content">
+                        <div class="box_price">
+                                <h5 class="price_heading">Original Price</h5>
+                                <div class="row">Original Price eur</div><span>&#8364</span>
+                                <div class="row">Discount % icon</div>
+                                <span>&#37</span>
+                        </div>
+                        <div class="box_discount">
+                                <h5 class="price_heading">After Discount</h5>
+                                <div class="row">You pay eur</div>
+                                <div class="row">You are save eur</div>
+                        </div>
+                 </div>
+               
+         </div>
 </html>
-
